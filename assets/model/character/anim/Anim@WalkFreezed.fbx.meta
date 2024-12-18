@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d756f19a-9c5c-4c07-aa5b-688f2284bbc1",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "66ceb": {
+      "importer": "gltf-animation",
+      "uuid": "d756f19a-9c5c-4c07-aa5b-688f2284bbc1@66ceb",
+      "displayName": "",
+      "id": "66ceb",
+      "name": "WalkFreezed.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9333333373069763
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e6f01": {
+      "importer": "gltf-scene",
+      "uuid": "d756f19a-9c5c-4c07-aa5b-688f2284bbc1@e6f01",
+      "displayName": "",
+      "id": "e6f01",
+      "name": "Anim@WalkFreezed.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 0.9333333373069763,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "WalkFreezed",
+            "from": 0,
+            "to": 0.9333333373069763,
+            "wrapMode": 2,
+            "previousId": "66ceb"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d756f19a-9c5c-4c07-aa5b-688f2284bbc1@e6f01"
+      ]
+    }
+  }
+}

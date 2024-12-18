@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5932b393-ec28-49ac-93b8-cb1900d15e0c",
+  "files": [],
+  "subMetas": {
+    "2e7eb": {
+      "importer": "gltf-mesh",
+      "uuid": "5932b393-ec28-49ac-93b8-cb1900d15e0c@2e7eb",
+      "displayName": "",
+      "id": "2e7eb",
+      "name": "Cube.008.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 92
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a9549": {
+      "importer": "gltf-material",
+      "uuid": "5932b393-ec28-49ac-93b8-cb1900d15e0c@a9549",
+      "displayName": "",
+      "id": "a9549",
+      "name": "Material.003.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6f4b3": {
+      "importer": "gltf-scene",
+      "uuid": "5932b393-ec28-49ac-93b8-cb1900d15e0c@6f4b3",
+      "displayName": "",
+      "id": "6f4b3",
+      "name": "Flat_Button_square.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5932b393-ec28-49ac-93b8-cb1900d15e0c@2e7eb"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5932b393-ec28-49ac-93b8-cb1900d15e0c@a9549"
+      ],
+      "scenes": [
+        "5932b393-ec28-49ac-93b8-cb1900d15e0c@6f4b3"
+      ]
+    }
+  }
+}

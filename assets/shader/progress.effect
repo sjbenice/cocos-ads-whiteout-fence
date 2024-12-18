@@ -1,0 +1,69 @@
+// Effect Syntax Guide: https://docs.cocos.com/creator/manual/zh/shader/index.html
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: legacy/main-functions/general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: white }
+        mainColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+        progressColor:      { value: [0.5, 0.5, 0.5, 1], editor: { type: color } }
+        origin:       { value: [0, 0, 0, 0] }
+        progress:       { value: 0.5 }
+  - name: transparent
+    passes:
+    - vert: general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+
+CCProgram unlit-fs %{
+  #pragma define PI_2 6.28
+
+  precision highp float;
+  #include <legacy/output>
+  #include <legacy/fog-fs>
+  #include <builtin/uniforms/cc-local>
+
+  in vec2 v_uv;
+  in vec3 v_position;
+
+  uniform sampler2D mainTexture;
+
+  uniform Constant {
+    vec4 mainColor;
+    vec4 progressColor;
+    vec4 origin;
+    float progress;
+  };
+
+  vec4 frag () {
+    vec4 col = mainColor * texture(mainTexture, v_uv);
+    // Use local position directly
+
+  #if USE_PROGRESS
+    vec3 localPos = v_position - origin.xyz;
+
+    float angle = atan(localPos.z, localPos.x) + origin.w * PI_2 / 360.0; // Angle in radians
+    if (angle < 0.0) {
+        angle += PI_2;
+    }
+    angle = angle / PI_2;
+
+    if (angle <= progress) {
+        col = progressColor;//discard;
+    }
+    CC_APPLY_FOG(col, localPos);
+  #endif
+    return CCFragOutput(col);
+  }
+}%
