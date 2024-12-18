@@ -1,0 +1,69 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "PLANE"
+      },
+      {
+        "index": 2,
+        "name": "PLAYER"
+      },
+      {
+        "index": 3,
+        "name": "ITEM"
+      },
+      {
+        "index": 4,
+        "name": "TRIGGER"
+      },
+      {
+        "index": 5,
+        "name": "WALL"
+      },
+      {
+        "index": 6,
+        "name": "ITEM_WALL"
+      },
+      {
+        "index": 7,
+        "name": "PLAYER_WALL"
+      },
+      {
+        "index": 8,
+        "name": "OBJECT"
+      },
+      {
+        "index": 9,
+        "name": "P_O_WALL"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 12,
+      "2": 958,
+      "3": 110,
+      "4": 4,
+      "5": 12,
+      "6": 8,
+      "7": 4,
+      "8": 772,
+      "9": 260
+    }
+  },
+  "layer": [
+    {
+      "name": "MY_TEXTURE",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1be028f8-e4fb-429e-a612-fa1756653485",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c773e": {
+      "importer": "gltf-animation",
+      "uuid": "1be028f8-e4fb-429e-a612-fa1756653485@c773e",
+      "displayName": "",
+      "id": "c773e",
+      "name": "eat.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.9666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b5655": {
+      "importer": "gltf-scene",
+      "uuid": "1be028f8-e4fb-429e-a612-fa1756653485@b5655",
+      "displayName": "",
+      "id": "b5655",
+      "name": "Anim@Eat.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 2.9666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "eat",
+            "from": 0,
+            "to": 2.9666666984558105,
+            "wrapMode": 2,
+            "previousId": "c773e"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1be028f8-e4fb-429e-a612-fa1756653485@b5655"
+      ]
+    }
+  }
+}

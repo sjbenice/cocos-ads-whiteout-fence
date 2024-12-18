@@ -1,0 +1,187 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7",
+  "files": [],
+  "subMetas": {
+    "38ad5": {
+      "importer": "gltf-mesh",
+      "uuid": "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@38ad5",
+      "displayName": "",
+      "id": "38ad5",
+      "name": "Nicole.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 7895
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 25
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7af40": {
+      "importer": "gltf-material",
+      "uuid": "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@7af40",
+      "displayName": "",
+      "id": "7af40",
+      "name": "NicoleMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2f2fc": {
+      "importer": "gltf-scene",
+      "uuid": "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@2f2fc",
+      "displayName": "",
+      "id": "2f2fc",
+      "name": "Nicole.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@38ad5"
+      ],
+      "skeletons": [
+        "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@7af40"
+      ],
+      "scenes": [
+        "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@2f2fc"
+      ]
+    },
+    "materials": {
+      "3b9a2de3-2cf9-45a4-a360-88f8d18e7df7@7af40": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "645a6e46-e696-463f-a7b4-1b67f8a8e3af@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 2
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

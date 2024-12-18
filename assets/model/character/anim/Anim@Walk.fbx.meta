@@ -1,0 +1,101 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "86929cc0-14bb-4c2b-8eeb-55ab11490f06",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "57146": {
+      "importer": "gltf-animation",
+      "uuid": "86929cc0-14bb-4c2b-8eeb-55ab11490f06@57146",
+      "displayName": "",
+      "id": "57146",
+      "name": "walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9333333373069763
+        },
+        "events": [],
+        "speed": 1.5
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2503b": {
+      "importer": "gltf-scene",
+      "uuid": "86929cc0-14bb-4c2b-8eeb-55ab11490f06@2503b",
+      "displayName": "",
+      "id": "2503b",
+      "name": "Anim@Walk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 0.9333333373069763,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk",
+            "from": 0,
+            "to": 0.9333333373069763,
+            "wrapMode": 2,
+            "previousId": "57146",
+            "speed": 1.5
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "86929cc0-14bb-4c2b-8eeb-55ab11490f06@2503b"
+      ]
+    }
+  }
+}

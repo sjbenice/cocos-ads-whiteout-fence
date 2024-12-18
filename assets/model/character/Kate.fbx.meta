@@ -1,0 +1,215 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "643c65e1-8358-457e-8a2e-45f5aa356d2b",
+  "files": [],
+  "subMetas": {
+    "af868": {
+      "importer": "gltf-mesh",
+      "uuid": "643c65e1-8358-457e-8a2e-45f5aa356d2b@af868",
+      "displayName": "",
+      "id": "af868",
+      "name": "Kate.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1966
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "643c65e1-8358-457e-8a2e-45f5aa356d2b@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 24
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5166a": {
+      "importer": "gltf-material",
+      "uuid": "643c65e1-8358-457e-8a2e-45f5aa356d2b@5166a",
+      "displayName": "",
+      "id": "5166a",
+      "name": "kate_e3d_mtl.001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3b951": {
+      "importer": "gltf-scene",
+      "uuid": "643c65e1-8358-457e-8a2e-45f5aa356d2b@3b951",
+      "displayName": "",
+      "id": "3b951",
+      "name": "Kate.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "643c65e1-8358-457e-8a2e-45f5aa356d2b@af868"
+      ],
+      "skeletons": [
+        "643c65e1-8358-457e-8a2e-45f5aa356d2b@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "643c65e1-8358-457e-8a2e-45f5aa356d2b@5166a"
+      ],
+      "scenes": [
+        "643c65e1-8358-457e-8a2e-45f5aa356d2b@3b951"
+      ]
+    },
+    "materials": {
+      "643c65e1-8358-457e-8a2e-45f5aa356d2b@5166a": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "albedoScale": {
+              "__type__": "cc.Vec3",
+              "x": 1.5,
+              "y": 1.5,
+              "z": 1.5
+            },
+            "roughness": 0,
+            "mainTexture": {
+              "__uuid__": "acbaf3ad-934f-4a33-acd0-bb497d01acdb@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}
